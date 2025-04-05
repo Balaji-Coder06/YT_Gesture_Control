@@ -10,23 +10,23 @@ This project uses Python, OpenCV, MediaPipe, and PyAutoGUI.
 - Python 3.9 or 3.10 (recommended)
 - Webcam
 
-📦 Installation
+📦 Installation<br>
  1. Clone the repository:
 bash
 git clone https://github.com/your-username/yt-gesture-control.git
-cd yt-gesture-control
+cd yt-gesture-control<br>
  2. Create a virtual environment (optional but recommended):
 bash
 Copy
 Edit
 python -m venv venv
-venv\Scripts\activate   # On Windows
+venv\Scripts\activate   # On Windows<br>
  3. Install dependencies:
 bash
 Copy
 Edit
-pip install -r requirements.txt
-▶️ Running the Script
+pip install -r requirements.txt<br>
+▶️ Running the Script<br>
 Make sure your webcam is connected.
 Then simply run:
 bash
@@ -35,17 +35,17 @@ Edit
 python yt_gesture_control.py
 Open a YouTube video in your browser before running this!
 
-✋ Hand Gesture Controls
-Gesture	Action
-Open Palm	Play Video
-Fist	Pause Video
-Swipe Right	Forward 10 sec
-Swipe Left	Rewind 10 sec
+✋ Hand Gesture Controls<br>
+Gesture	Action<br>
+Open Palm	Play Video<br>
+Fist	Pause Video<br>
+Swipe Right	Forward 10 sec<br>
+Swipe Left	Rewind 10 sec<br>
 
-🧠 Built With
-MediaPipe
-OpenCV
-PyAutoGUI
+🧠 Built With<br>
+MediaPipe<br>
+OpenCV<br>
+PyAutoGUI<br>
 
-🤝 Contributing
+🤝 Contributing<br>
 Feel free to fork, improve, and send pull requests!
