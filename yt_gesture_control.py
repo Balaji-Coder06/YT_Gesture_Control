@@ -45,7 +45,7 @@ while True:
             fingers_count = sum(fingers_up)
             current_time = time.time()
 
-            # 👋 Play: 4 fingers up
+            # 👋 Play: all fingers up
             if fingers_count == 4:
                 if prev_gesture != "play" and current_time - gesture_time > 1:
                     pyautogui.press('space')
@@ -60,16 +60,6 @@ while True:
                     print(f"{label} Hand - Pause")
                     prev_gesture = "pause"
                     gesture_time = current_time
-
-
-            # ✋ Stop - 4 fingers up, thumb down
-            #if fingers_up.count(1) == 4 and not fingers_up[0]:
-             #   if current_time - gesture_time > 1:
-              #      print(f"{label} Hand - Stop")
-               #     cap.release()
-                #    cv2.destroyAllWindows()
-                 #   exit()
-
 
             # ☝️ 1 Finger (Index only) → Forward
             elif fingers_up[0] and not any(fingers_up[1:]):
