@@ -35,12 +35,12 @@ Edit
 python yt_gesture_control.py
 Open a YouTube video in your browser before running this!
 
-✋ Hand Gesture Controls<br>
-Gesture	Action<br>
-Open Palm	Play Video<br>
-Fist	Pause Video<br>
-Swipe Right	Forward 10 sec<br>
-Swipe Left	Rewind 10 sec<br>
+✋ Hand Gesture Controls 
+Gesture	Actions Are:<br>
+Open Palm to 	Play Video<br>
+Fist to	Pause Video<br>
+One Finger to	Forward 10 sec<br>
+Two Finger to Rewind 10 sec<br>
 
 🧠 Built With<br>
 MediaPipe<br>
