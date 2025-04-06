@@ -13,7 +13,7 @@ This project uses Python, OpenCV, MediaPipe, and PyAutoGUI.
 📦 Installation<br>
  1. Clone the repository:
 bash
-git clone https://github.com/Balaji-Coder06/YT-Gesture-Control.git
+git clone https://github.com/Balaji-Coder06/YT_Gesture_Control.git
 cd yt-gesture-control<br>
  2. Create a virtual environment (optional but recommended):
 bash
